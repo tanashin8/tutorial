@@ -29,6 +29,17 @@ Gitの使い方
 
     $ git push origin <branch>
 
+    ※ username,passwordを聞かれるので入力
+
 例）
 
     $ git push origin master
+
+    https://github.com/tanashin8/tutorial.git の場合
+    username : tanashin8
+    password : tackathon2014
+
+    ※注意※
+    これで403エラーが出たら
+    $ git remote set-url origin https://tanashin8:tackathon2014@github.com/tanashin8/tutorial.git
+    としてみる。
