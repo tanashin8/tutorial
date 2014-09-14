@@ -46,10 +46,10 @@ Gitの使い方
 
 ## リモート側のブランチ削除方法
 
-    $ % git push origin : <branch>
+    $ git push origin : <branch>
     
     ※ username,passwordを聞かれるので入力
 
 例）
 
-    $ % git push origin :test
+    $ git push origin :test
