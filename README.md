@@ -43,3 +43,13 @@ Gitの使い方
     これで403エラーが出たら
     $ git remote set-url origin https://tanashin8:tackathon2014@github.com/tanashin8/tutorial.git
     としてみる。
+
+## リモート側のブランチ削除方法
+
+    $ git push origin : <branch>
+    
+    ※ username,passwordを聞かれるので入力
+
+例）
+
+    $ git push origin :test
