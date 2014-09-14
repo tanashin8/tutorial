@@ -36,12 +36,12 @@ Gitの使い方
     $ git push origin master
 
     https://github.com/tanashin8/tutorial.git の場合
-    username : tanashin8
-    password : tackathon2014
+    username : xxxxx (LINEのノート参照)
+    password : yyyyy (LINEのノート参照)
 
     ※注意※
     これで403エラーが出たら
-    $ git remote set-url origin https://tanashin8:tackathon2014@github.com/tanashin8/tutorial.git
+    $ git remote set-url origin https://xxxxx:yyyyy@github.com/tanashin8/tutorial.git
     としてみる。
 
 ## リモート側のブランチ削除方法
